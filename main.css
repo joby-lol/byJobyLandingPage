@@ -13,6 +13,10 @@ a.blocklink:last-child {margin-bottom:0;}
 h1, h2, h3, h4, h5, h6 {text-align:center;margin-bottom:0;margin-top:1.4em;font-weight:700;}
 h1 {margin-top:0.35em;font-weight:800;}
 h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {margin-top:0;}
+h2 {font-size:1.6em;}
+h3 {font-size:1em;text-align:left;}
+h3+p {margin-top:0.16em;}
+
 p {margin:0.7em 0;}
 p:last-child {margin-bottom:0;}
 
