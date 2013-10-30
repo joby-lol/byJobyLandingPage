@@ -4,6 +4,8 @@ body {background:#e4eef4;font-family:'Open Sans',sans-serif;font-weight:400;colo
 a {color:#fff;font-weight:600;text-decoration:none;outline:1px dotted #fff;white-space:nowrap;padding:2px;}
 a:visited {color:#fff;outline:1px dotted #fff;}
 a:hover, a:active {color:#000;outline:1px dotted #fff;background:rgba(255,255,255,0.85);}
+a.blocklink {display:block;white-space:normal;font-weight:normal;padding:0.35em;margin:0.7em 0;border-left:0.35em solid #fff;}
+a.blocklink:last-child {margin-bottom:0;}
 
 #content {position:fixed;width:100%;height:100%;overflow:auto;z-index:1;}
 #byjoby-landing {position:relative;background:#0097fb;padding:10px;z-index:3;}
@@ -12,8 +14,11 @@ h1, h2, h3, h4, h5, h6 {text-align:center;margin-bottom:0;margin-top:1.4em;font-
 h1 {margin-top:0.35em;font-weight:800;}
 h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {margin-top:0;}
 p {margin:0.7em 0;}
+p:last-child {margin-bottom:0;}
 
 p.deck {color:#0097fb;background:#fff;font-weight:200;text-align:center;font-size:1.25em;text-transform:uppercase;}
+
+#work, #about, #links {margin-bottom:0.7em;}
 
 @media screen and (min-width:470px) {
 	#byjoby-landing:before {content:"";margin-top:-60px;float:right;display:block;height:270px;width:222px;background:url(portrait-small.png);}
@@ -31,11 +36,11 @@ p.deck {color:#0097fb;background:#fff;font-weight:200;text-align:center;font-siz
 		right:0;top:0;}
 }
 
-@media screen and (min-width:1280px) and (min-height:850px) {
+@media screen and (min-width:1280px) and (min-height:880px) {
 	#byjoby-landing {margin-top:400px;}
 	#work, #about, #links {z-index:1;position:absolute;background:#0097fb;padding:10px;width:320px;margin:0 auto;border:10px solid #e4eef4;}
 	#work {left:-320px;top:50%;}
-	#about {right:-320px;bottom:-200%;}
+	#about {right:-320px;bottom:-300%;}
 	#links {width:480px;bottom:-400%;left:10%;}
 	p.deck {margin-bottom:5px;position:relative;z-index:1;}
 	#content:after {left:auto;right:40%;top:-150px;}
