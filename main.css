@@ -20,6 +20,8 @@ p.deck {color:#0097fb;background:#fff;font-weight:200;text-align:center;font-siz
 
 #work, #about, #links {margin-bottom:0.7em;}
 
+#byjoby-teaser {position:fixed;bottom:0;left:0;right:0;background:#0097fb;text-align:center;z-index:4;border-top:3px solid #fff;box-shadow:0 0 10px #fff;}
+
 @media screen and (min-width:470px) {
 	#byjoby-landing:before {content:"";margin-top:-60px;float:right;display:block;height:270px;width:222px;background:url(portrait-small.png);}
 }
@@ -36,7 +38,7 @@ p.deck {color:#0097fb;background:#fff;font-weight:200;text-align:center;font-siz
 		right:0;top:0;}
 }
 
-@media screen and (min-width:1280px) and (min-height:880px) {
+@media screen and (min-width:1280px) and (min-height:910px) {
 	#byjoby-landing {margin-top:400px;}
 	#work, #about, #links {z-index:1;position:absolute;background:#0097fb;padding:10px;width:320px;margin:0 auto;border:10px solid #e4eef4;}
 	#work {left:-320px;top:50%;}
@@ -44,12 +46,13 @@ p.deck {color:#0097fb;background:#fff;font-weight:200;text-align:center;font-siz
 	#links {width:480px;bottom:-400%;left:10%;}
 	p.deck {margin-bottom:5px;position:relative;z-index:1;}
 	#content:after {left:auto;right:40%;top:-150px;}
+	#byjoby-teaser {border-top:0;}
 }
-@media screen and (min-width:1380px) and (min-height:850px) {
+@media screen and (min-width:1380px) and (min-height:910px) {
 	#work {left:-370px;}
 	#about {right:-370px;}
 }
-@media screen and (min-width:1380px) and (min-height:950px) {
+@media screen and (min-width:1380px) and (min-height:960px) {
 	#byjoby-landing {margin-top:450px;}
 	#content:after {left:auto;right:45%;top:-130px;}
 }
